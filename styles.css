@@ -1,4 +1,39 @@
-div > p{
-    background-color: black;
-    color: cyan;
+
+
+.background-container {
+    height: 100vh;
+    background-image: linear-gradient(
+        to right,
+        #0f151b46,
+        rgba(236, 229, 229, 0.37)),
+        url(../html-practice/imgs/mika-baumeister-J5yoGZLdpSI-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no repeat;
+    background-position: top;
+    position: relative;
+    color: white;
+    
+    
+}
+
+.footer {
+    background-color: black
+}
+
+.label {
+    background-color: linearGradient(
+        to right,
+        #6699CC,
+        black),
+
+    
+}
+
+
+.about-me {
+    margin: 15rem auto;
+}
+.about-me > p {
+    font: white;
+
 }
