@@ -9,6 +9,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css">
   <title>Plumlee Portfolio</title>
+  <a href="imgs/plumDev.jpg"></a>
 </head>
 
 <body class="background-container">
@@ -22,7 +23,7 @@
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#about-me">About Me</a>
@@ -31,13 +32,13 @@
                     <a class="nav-link" href="#contact-me">Contact</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="#projects" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Projects
                     </a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      <li><a class="dropdown-item" href="#project1">Random Trip Generator</a></li>
+                      <li><a class="dropdown-item" href="#project2">Coming Soon</a></li>
+                      <li><a class="dropdown-item" href="#project3">Coming Soon2</a></li>
                   </ul>
                 </li>
               </ul>
@@ -47,38 +48,46 @@
         <div id="about-me" class="about-me" >
           <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
+
               <div class="carousel-item active">
-                <img src="../html-practice/imgs/aboutMeANIME.png" class="d-block w-100" alt="my favorite animes">
+                <img src="../html-practice/imgs/motocross.jpg" class="d-block w-100" alt="my History">
+                <strong><p>What I wanted to be at age 5...</P>
+             </div>
+              <div class="carousel-item">
+                <img src="../html-practice/imgs/35k.jpg" class="d-block w-100" alt="I joined the army">
+                <p>What I actually ended up doing at age 18...</p>
+              </div>
+              <div class="carousel-item">
+                <img src="../html-practice/imgs/solarSales.jpg" class="d-block w-100" alt="after, I was a door to door salesman">
+                <p>After the Army, I studied 3 years at University as an English major, but dropped out due to a change in goals. Later, I got a job as a temporary job as a door to door solar panel salesman. </p>
+              </div>
+                <div class="carousel-item">
+                <img src="../html-practice/imgs/fullStackDevPic.jpeg" class="d-block w-100" alt="now, I am studying to be a full-stack developer">
+                <p>I decided for a career change and desired to become a full-stack developer.</p>
+              </div>
+              <div class="carousel-item">
+                <img src="../html-practice/imgs/Goal.png" class="d-block w-100" alt="I want to become a block-chain developer">
+                <p>What I would like to learn to become..</p>
+              </div>
+              <div class="carousel-item">
+                <img src="../html-practice/imgs/littleME.jpg" class="d-block w-100" alt="me at age 2">
+                <p>Me, when I was two... check out our clothes, lol. Retro</p>
+              </div>
+              <div class="carousel-item">
+                <img src="../html-practice/imgs/meInPakistanTraditinalAttire.jpg" class="d-block w-100" alt="what I desire to become">
+                <p>My wife's family is from Pakistan and when I visited, they gave me traditional clothes to wear. Stylish.</p>
+                <P>me in 2021...</P>
+              </div>
+              <div class="carousel-item">
+                <img src="../html-practice/imgs/myFavAnimes.jpg" class="d-block w-100" alt="my favorite animes">
                 <p>My Favorite Animes</p>
               </div>
               <div class="carousel-item">
                 <img src="../html-practice/imgs/FarmHodl.png" class="d-block w-100" alt="my hodls">
                 <p>What I farm and what I hodl...</p>
               </div>
-              <div class="carousel-item">
-                <img src="../html-practice/imgs/likeWorkhistory.png" class="d-block w-100" alt="my History">
-                <strong><p>What I wanted to be at age 5</P>
-                  <p>......................what I did at 18</p>
-                  <p>..............................after military spending 3 years at University in an English Major until changing my mind..</p>
-                <p> and became a door to door solar panel salesman, because paid much better than being a teacher...</P>
-                  <p> </P>
-                    <p>and then finding new my career, tired of haggling with people at their homes.</p></strong>
-              </div>
-              <div class="carousel-item">
-                <img src="../html-practice/imgs/Goal.png" class="d-block w-100" alt="what I desire to become">
-                <p>What I would like to learn to become..</p>
-              </div>
-              <div class="carousel-item">
-                <img src="../html-practice/imgs/littleME.jpg" class="d-block w-100" alt="what I desire to become">
-                <p>Me, when I was two...</p>
-              </div>
-              <div class="carousel-item">
-                <img src="../html-practice/imgs/meInPakistanTraditinalAttire.jpg" class="d-block w-100" alt="what I desire to become">
-                <p>My wife's family is from Pakistan and when I visited, they gave me traditional clothes to wear.</p>
-                <P>me in 2021...</P>
-              </div>
 
-            </div>
+            
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
@@ -88,18 +97,42 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>
-        </div>
-        <p> PROJECTS COMMING SOON: NOT MUCH TO SHOW YET...</p>
+      
+        <div class="Projects" id="Projects"><br><br><br>
         <p>Here's my GitHub...   <hyperlink>https://github.com/plumtree87</hyperlink></p>
-
         </div>
+        <div class ="project-container">
+        <div class="project1" id="project1"> 
+          <title>Project 1</title> <p>My first Project was a randomTripGenerator
+          <a href ="https://github.com/plumtree87/daytripgenerator_js" target="blank" >
+          <img src="imgs/inHandPlum.jpg" width="100" height="100">
+          </a>
+          </p>
+        </div>
+        <div class= "project2" id="project2">
+          <title> Project 2</title> <p>
+            A new project will be described here soon...
+            <a href="google.com" target="blank">
+          <img src ="imgs/plumDev.jpg" width="100" height ="100">
+          </a>
+          </p>
+        </div>
+        <div class="project3" id="project3">
+          <title>Project 3</title><p>
+            Another project will be described here..
+            <a href="anotherproject.com" target="blank">
+              <img src ="imgs/singlePlum.jpg" width ="100" height ="100" col="3">
+            </a>
+          </p>
+        </div>  
+      </div>
 
   
-        </div>
+      
         <footer class="footer">
           <div id = "contact-me">
             <div class="mb-3">
-              <label for="exampleFormControlInput1" class="form-label">Email address</label>
+              <label for="exampleFormControlInput1" class="form-label">Email address where you want me to contact you.</label>
               <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
             </div>
             <div class="mb-3">
