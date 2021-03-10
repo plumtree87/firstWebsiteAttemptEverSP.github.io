@@ -46,31 +46,3 @@
     height: auto;
 }
  
-.projects > p {
-    border-left: 5rem;
-    border-top: 5rem;
-}
-
-#project1 > img {
-    width: 100px;
-    height: 100px;
-}
-#project1 > p {
-    grid-row: 4;
-    grid-column: 4;
-
-    width: 100px;
-
-}
-
-#project2 > p {
-    grid-row: 4;
-    grid-column: 4;
-    width: 100px;
-}
-
-#project3 > p {
-    grid-row: 4;
-    grid-column: 4;
-    width: 100px;
-}
