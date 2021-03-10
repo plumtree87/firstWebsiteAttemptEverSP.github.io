@@ -1,4 +1,6 @@
-
+p {
+    indent: 1px;
+}
 
 .background-container {
     height: 100vh;
@@ -45,4 +47,31 @@
     width: 100%;
     height: auto;
 }
+
+.centerPhoto > img {
+    align-content: center;
+    flex-wrap: inherit;
+    shape-image-threshold: initial;
+    width: 100%;
+    height: auto;
+}
  
+.projects > p {
+    border-left: 5rem;
+    border-top: 5rem;
+}
+
+.carousel-item > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
+}
+
+.carousel-item > p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
+}
+
