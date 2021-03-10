@@ -4,11 +4,7 @@ p {
 
 .background-container {
     height: 100vh;
-    background-image: linear-gradient(
-        to right,
-        #0f151b46,
-        rgba(236, 229, 229, 0.37)),
-        url(../html-practice/imgs/mika-baumeister-J5yoGZLdpSI-unsplash.jpg);
+    background-color: black;
     background-size: cover;
     background-repeat: no repeat;
     background-position: top;
@@ -75,3 +71,6 @@ p {
     width: 50%
 }
 
+.footer > label {
+    font: grey;
+}
